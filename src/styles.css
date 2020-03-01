@@ -17,7 +17,7 @@ header {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    color: #ffffff;
+    color: #d3d0d0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,8 +27,7 @@ header {
 }
 
 nav {
-    background: #ffffff;
-    opacity: 80%;
+    background: rgb(206, 205, 205, 0.8);
     position: fixed;
     width: 100%;
 }
@@ -43,6 +42,7 @@ nav ul {
 a {
     text-decoration: none;
     color: #f54343;
+    font-weight: 800;
 }
 
 li {
@@ -51,11 +51,8 @@ li {
 }
 
 li:hover {
-    background: #696868;
-}
-
-li:active {
-    background: #696868;
+    text-decoration: underline;
+    text-decoration-color: #f7f315;
 }
 
 section {
@@ -71,10 +68,9 @@ section#about {
 }
 
 #about img {
-    width: 25%;
-    transform: rotate(-90deg);
+    width: 40%;
     border-radius: 400px;
-    margin: 10px;
+    margin-left: 40px;
 }
 
 #about div {

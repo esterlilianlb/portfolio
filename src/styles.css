@@ -66,6 +66,33 @@ header {
   margin: 2% 0;
 }
 
+#habilities, .hability {
+  display: flex;
+  flex-direction: column;
+}
+
+#habilities {
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2%;
+}
+
+.habilities-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2%;
+  width: 90%;
+}
+
+.hability {
+  width: 25%;
+  align-items: center;
+  margin: 1%;
+  padding: 1%;
+}
+
 
 /* css web */
 

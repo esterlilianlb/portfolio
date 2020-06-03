@@ -5,38 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ester Benitah portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="./assets/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <a href="#"><li>Início</li></a>
+    <nav class="top-nav" id="navbar">
+      <a class="menu-burger"><i class="fa fa-bars"></i></a>
+        <ul class="menu-list">
+            <li></li><a href="#">Início</a></li>
             <li><a href="#about">Sobre mim</a></li>
             <li><a href="#habilities">Habilidades</a></li>
             <li><a href="#projects">Projetos</a></li>
             <li><a href="#contact">Contato</a></li>
         </ul>
+        
     </nav>
     <header>
         <h1>Olá, me chamo Ester Benitah</h1>
         <h4>Front-end Developer</h4>
     </header>
+
     <section id='about'>
         <h1>Sobre mim</h1>
-        <div>
-        <img src="./images/profile.jpg" alt="ester">
+        <div class="personal-info">
+        <img src="./assets/images/profile.jpg" alt="ester">
         <p>Natural de Belém-Pa, vim para São Paulo e acabei me aventurando (e me apaixonando!) pela área da tenologia. Além de Front-End Developer, sou Bióloga de formação</p>
         </div>
     </section>
+
     <section id="habilities">
         <h1>Habilidades</h1>
     </section>
+
     <section id="projects">
         <h1>Projetos</h1>
     </section>
+    
     <footer id="contact">
         <h4>Contato</h4>
     </footer>
     
+    <script src="app.js"></script>
 </body>
 </html>

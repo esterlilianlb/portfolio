@@ -24,7 +24,7 @@ const PROJECTS = {
     "img": "./assets/images/cifra.png"
   },
   {
-    "titulo": "Be The Hero (Semana Omnistack 11)",
+    "titulo": "Be The Hero",
     "stack": "React, Node.js, ReactNative, SQLite e Knex",
     "sobre": "Be The Hero, solução desenvolvida durante a semana OmniStack 11, uma plataforma para oferecer ajuda a pets em situação de risco.",
     "link": "",

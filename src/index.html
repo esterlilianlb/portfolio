@@ -52,51 +52,60 @@
 
     <h1>Habilidades</h1>
 
-    <div class="habilities-card">
-      <span class="hability">
-        <i class="fab fa-js-square"
-        style="color: yellow; font-size: 50px;"
-        ></i>
-        <p>JavaScript</p>
-      </span>
-
-      <span class="hability">
-        <i class="fab fa-react"
-        style="color: purple; font-size: 50px;"
-        ></i>
-        <p>React</p>
-      </span>
-
-      <span class="hability">
-        <i class="fab fa-node-js"
-        style="color: green; font-size: 50px;"
-        ></i>
-        <p>Node.js</p>
-      </span>
-
-      <span class="hability">
-        <i class="fab fa-css3-alt"
-        style="color: blue; font-size: 50px;"
-        ></i>
-        <p>CSS3</p>
-      </span>
-
-      <span class="hability">
-        <i class="fab fa-html5"
-        style="color: orangered; font-size: 50px;"
-        ></i>
-        <p>HTML5</p>
-      </span>
-
+    <div class="progress">
+      <div class="progress-done" data-done="60">
+        Javascript
+      </div>
     </div>
+
+    <div class="progress">
+      <div class="progress-done" data-done="50">
+        React
+      </div>
+    </div>
+
+    <div class="progress">
+      <div class="progress-done" data-done="65">
+        CSS3
+      </div>
+    </div>
+
+    <div class="progress">
+      <div class="progress-done" data-done="65">
+        HTML5
+      </div>
+    </div>
+
+    <div class="progress">
+      <div class="progress-done" data-done="45">
+        Firebase
+      </div>
+    </div>
+
+    <div class="progress">
+      <div class="progress-done" data-done="40">
+        Node.js
+      </div>
+    </div>
+
+    <div class="progress">
+      <div class="progress-done" data-done="20">
+        Vue.js
+      </div>
+    </div>
+    
   </section>
 
-  <section class="projects" id="projects-container"></section>
+  <section class="projects" id="projects-container">
+    <div class="cards-container"></div>
+  </section>
 
   <section class="contact" id="contact-container"></section>
 
 
   <script src="app.js"></script>
+  <script src="./assets/projects.js"></script>
+  <script src="projectCards.js"></script>
 </body>
 
 </html>

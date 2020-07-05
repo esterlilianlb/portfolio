@@ -8,7 +8,7 @@ function printCards() {
     <div class="project">
       <img src="${item.img}">
       <h4>${item.titulo}</h4>
-      <p>${item.stack}</p>
+      <p class="stack">${item.stack}</p>
       <p>${item.sobre}</p>
       <a href="${item.link}">Visite a página</p>
       <a href="">Github</a>

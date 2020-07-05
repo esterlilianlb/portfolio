@@ -12,36 +12,47 @@
 </head>
 
 <body>
-  <nav class="top-nav" id="navbar">
-    <a class="menu-burger"><i class="fa fa-bars"></i></a>
-    <ul class="menu-list">
-      <li></li><a href="#">Início</a></li>
-      <li><a href="#about">Sobre mim</a></li>
-      <li><a href="#habilities">Habilidades</a></li>
-      <li><a href="#projects">Projetos</a></li>
-      <li><a href="#contact">Contato</a></li>
-    </ul>
-
-  </nav>
   <header>
-    <h1>Olá, me chamo Ester Benitah</h1>
-    <h4>Front-end Developer</h4>
+    <button id="open-modal">=</button>
+    
+    <nav class="modal">
+      <span class="close-modal">&times;</span>
+      <li class="modal-content">
+        <ul><a href="#">Início</a></ul>
+        <ul><a href="#about">Sobre mim</a></ul>
+        <ul><a href="#habilities-container">Habilidades</a></ul>
+        <ul><a href="#projects-container">Projetos</a></ul>
+        <ul><a href="#contact-container">Entre em contato</a></ul>
+      </li>
+    </nav>
   </header>
 
-  <section id='about'>
-    <h1>Sobre mim</h1>
-    <div class="personal-info">
-      <img src="./assets/images/profile.jpg" alt="ester">
-      <p>Natural de Belém-Pa, vim para São Paulo e acabei me aventurando (e me apaixonando!) pela área da tenologia.
-        Além de Front-End Developer, sou Bióloga de formação</p>
-    </div>
-  </section>
+  <main class="about-me" id="about">
+    
+    <img src="./assets/images/pc.png" alt="pc logo">
+    <h1 class="text-background"> olá, mundo! </h1>
+    <p>Sou Ester Benitah, front-end developer</p>
 
-  <section id="habilities">
+    <a href="#my-info" class="more-info">Saiba mais</a>
+    
+  </main>
+
+      <section class="personal-info" id="my-info">
+        <!-- <img src="profile.jpg" alt="Ester Benitah"> -->
+        <p>Desenvolvedora front-end formada pela <a href="" class="lab">Laboratoria</a>.
+          Sou natural de Belém-Pa e residente em São Paulo, curiosa por natureza, e apaixonada por tecnologia, séries e gatinhos.
+          Além de Front-End Developer, sou Bióloga de formação.</p>
+          
+          <a href="./assets/images/CVEsterBnitah.pdf" class="button-style" download>Download CV</a>
+          <a href="https://www.github.com/esterlilianlb" class="button-style" target="_blank">Github</a>
+          <a href="https://www.linkedin.com/in/esterbenitah" class="button-style" target="_blank">LinkedIn</a>
+      </section>
+
+  <section class="habilities" id="habilities-container">
 
     <h1>Habilidades</h1>
 
-    <div class="habilities-container">
+    <div class="habilities-card">
       <span class="hability">
         <i class="fab fa-js-square"
         style="color: yellow; font-size: 50px;"
@@ -80,13 +91,10 @@
     </div>
   </section>
 
-  <section id="projects">
-    <h1>Projetos</h1>
-  </section>
+  <section class="projects" id="projects-container"></section>
 
-  <footer id="contact">
-    <h4>Contato</h4>
-  </footer>
+  <section class="contact" id="contact-container"></section>
+
 
   <script src="app.js"></script>
 </body>

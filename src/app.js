@@ -1,16 +1,25 @@
-const navBar = document.querySelector('.menu-burger');
+const modal = document.querySelector('.modal');
+const span = document.querySelector('.close-modal');
+const button = document.querySelector('#open-modal');
+const modalLink = document.querySelectorAll('.modal-content-link')
 
-navBar.addEventListener('click', () => {
-  const nav = document.querySelector('nav');
-  const list = document.querySelector('.menu-list');
-  if(list.style.display === 'none') {
-    list.style.display = 'block';
-    nav.style.background = '#ffffff'
-  } else {
-    list.style.display = 'none';
-    list.classList.remove('show')
-    nav.style.background = 'none'
+button.onclick = () => {
+  modal.style.display = "block";
+  button.style.display = "none"
+}
+
+span.onclick = () => {
+  modal.style.display = "none";
+  button.style.display = "block";
+}
+
+window.onclick = (event) => {
+  if(event.target == modal) {
+    modal.style.display = "none"
   }
-  
-})
+}
+
+modalLink.onclick = () => {
+  modal.style.display = "none"
+}
 
